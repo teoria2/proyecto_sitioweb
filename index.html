@@ -1,17 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>version1</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+    <!-- aqui empieza el navegador -->
+    <nav>
+        <div class="logo">
+            <img src="imagenes/Captura de pantalla 2021-05-10 182531.png" alt="imagen de logo">
+        </div>
+        <div class="menu">
+            <ul class="contactos">
+                <li class="twiter">
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>twiter</a>
+                </li>
+                <li class="facebbok">
+                    <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i>Facebook</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="incio"><a href="#">INICIO</a> </li>
+                <li class="productos"><a href="#">PRODUCTOS</a> </li>
+            </ul>
 
-    <div class="primersection">
+        </div>
+    </nav>
+    <!-- aqui termnina el navegador -->
+
+    <!-- aqui empieza la segunda seccion de banner -->
+    <div class="slider-section">
+        <img src="imagenes/herramientas1.jpg" alt="">
+
+    </div>
+
+    <!-- aqui termina el segunda seccion banner -->
+
+
+    <!-- <div class="primersection">
         <div id="top">
             <div class="logo">
                 <a href=""> <img src="imagenes/Captura de pantalla 2021-05-10 182531.png" alt="imagen del logo"></a>
@@ -65,77 +97,10 @@
             <a href="">siguiente</a>
         </ul>
 
-    </div>
-
-
-    <!-- <div class="header header">
-        <a name="ztop" id="ztop"></a>
-        <div id="top">
-            <div class="logo">
-                <a href="https://www.salitools.com/"><img src="imagenes/Captura de pantalla 2021-05-10 182531.png" alt="logo de la empresa"></a>
-            </div>
-            <div class="top_right">
-                <div class="top_search">
-                    <div class="tfollow">
-                        <table width="219" border="0" cellspacing="0" cellpadding="0">
-                            <tbody>
-                                <tr>
-                                    <td width="79">Follow us</td>
-                                    <td width="75"><a href="#">Twitter</a></td>
-                                    <td width="65"><a href="https://www.facebook.com/SALIABRASIVETOOLS/">Facebook</a></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="search">
-                        <table width="0" border="0" cellspacing="0" cellpadding="0">
-                            <tbody>
-                                <tr>
-                                    <td><input name="textfield" id="txtSearch" type="text" value="Keyword" onblur="if(this.value==''){this.value='Keyword'};" onfocus="if(this.value=='Keyword'){this.value=''};"></td>
-                                    <td><img id="btnSearch" src="/images/m66/yellow1/search_button.jpg" width="59" height="23" onclick="PSearch()"></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div class="menu">
-                    <ul class="nav nav_en site_10567">
-                        <li id="liHome"> <a href="https://www.salitools.com/" class="inmenu_1">Home</a></li>
-                        <li id="liproducts" onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="https://www.salitools.com/products" class="inmenu">Products</a>
-                            <ul class="submenu nav0">
-                                <li class="side_nav1" id="HeadProCat1"><a href="https://www.salitools.com/cutting-disc-1">Cutting Disc</a></li>
-                                <li class="side_nav1" id="HeadProCat2"><a href="https://www.salitools.com/grinding-disc-1">Grinding Disc</a></li>
-                                <li class="side_nav1" id="HeadProCat3"><a href="https://www.salitools.com/diamond-saw-blade-1">Diamond Saw Blade</a></li>
-                                <li class="side_nav1" id="HeadProCat4"><a href="https://www.salitools.com/diamond-grinding-wheel-1">Diamond Grinding Wheel</a></li>
-                                <li class="side_nav1" id="HeadProCat5"><a href="https://www.salitools.com/tct-saw-blade-1">TCT Saw Blade</a></li>
-                                <li class="side_nav1" id="HeadProCat6"><a href="https://www.salitools.com/wire-brush-1">Wire Brush</a></li>
-                                <li class="side_nav1" id="HeadProCat7"><a href="https://www.salitools.com/flap-disc-1">Flap Disc</a></li>
-                                <li class="side_nav1" id="HeadProCat8"><a href="https://www.salitools.com/sanding-disc-1">Sanding Disc</a></li>
-                                <li class="side_nav1" id="HeadProCat9"><a href="https://www.salitools.com/abrasive-cloth-1">Abrasive Cloth And Paper</a></li>
-                                <li class="side_nav1" id="HeadProCat10"><a href="https://www.salitools.com/dril-1">Dril bits</a></li>
-                                <li class="side_nav1" id="HeadProCat11"><a href="https://www.salitools.com/measuring-tape-1">Measuring Tape</a></li>
-                                <li class="side_nav1" id="HeadProCat12"><a href="https://www.salitools.com/plier-1">Plier</a></li>
-                                <li class="side_nav1" id="HeadProCat13"><a href="https://www.salitools.com/gloves-1">Gloves</a></li>
-                                <li class="side_nav1" id="HeadProCat14"><a href="https://www.salitools.com/power-tools-1">Power Tools</a></li>
-                                <li class="side_nav1" id="HeadProCat15"><a href="https://www.salitools.com/hand-tools-1">Hand Tools</a></li>
-                            </ul>
-                        </li>
-                        <li id="liabout-us"> <a href="https://www.salitools.com/about-us" class="inmenu">About Us</a></li>
-                        <li id="linewslist-1" onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="https://www.salitools.com/newslist-1" class="inmenu">News</a>
-                            <ul class="submenu">
-                                <li><a href="https://www.salitools.com/info/">Knowledge</a></li>
-                            </ul>
-                        </li>
-                        <li id="lisali-team"> <a href="https://www.salitools.com/sali-team" class="inmenu">SALI Team</a></li>
-                        <li id="licontact-us"> <a href="https://www.salitools.com/contact-us" class="inmenu">Contact Us</a></li>
-                        <li id="lisali-e-catalogue"> <a href="https://www.salitools.com/sali-e-catalogue" class="inmenu">SALI E-CATALOGUE</a></li>
-                        <li id="liVRLink"><a href="https://www.linked-reality.com/company/15130/en" class="inmenu" target="_blank" rel="nofollow">VR</a></li>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
     </div> -->
+
+
+
 </body>
 
 </html>
